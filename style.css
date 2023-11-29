@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+body{
+    margin: auto;
+    background-color: hwb(314 77% 15%);
+       
+}
+header{
+    background-color: #81708C;
+    color: #F2F2F2;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    margin: auto;
+}
+header>h1,h2,nav{
+    text-align: center;
+}
+nav{
+    background-color: #81708C;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+nav a{
+    color: #F2F2F2;
+}
+
+
+main>img{
+    min-width: 400px;
+    max-width: 1550px;
+    
+}
+
+span>img{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 1px;
+}
+
