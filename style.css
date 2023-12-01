@@ -3,8 +3,12 @@
     font-family: 'Halant-Medium'; 
     src: url('../projeto-site-vcl/fonte/Halant-Medium.ttf') format('opentype');
 
+    
+    font-family: 'Montserrat-VariableFont_wght'; src: url('../projeto-site-vcl/fonte/Montserrat-VariableFont_wght.ttf') format('opentype');
+
     font-family: 'ShadowsIntoLight-Regular';
     src: url('../projeto-site-vcl/fonte/ShadowsIntoLight-Regular.ttf') format('opentype');
+
 }
 
 :root{
@@ -16,19 +20,23 @@
 
     --fonte01: 'Halant-Medium';
     --fonte02: 'ShadowsIntoLight-Regular';
+    --fonte03: 'Montserrat-VariableFont_wght';
 }
 
 body{
     margin: auto;
     background-color: hwb(314 77% 15%);
+    
        
 }
+
+
+
 header{
     background-color: #81708C;
     color: #F2F2F2;
     padding-top: 30px;
     padding-bottom: 50px;
-    padding-left: 20px;
     width: 100vw;
     font-family: var(--fonte01);
     font-size: 2em;
@@ -38,6 +46,8 @@ header>h1,h2,nav{
     text-align: center;
 }
 
+
+
 header>h2{
     font-family: var(--fonte02);
     font-size: 2em;
@@ -45,15 +55,29 @@ header>h2{
 
 nav{
     background-color: #81708C;
-    padding-left: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
+    font-size: 1.5em;
+    font-family: var(--fonte03);
+    font-weight: BOLD;
     width: 100vw;
-
+    
+    
+    
 }
 
 nav a{
-    color: #F2F2F2;
+    color: var(--cor03);
+    border: 2px solid var(--cor02);
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+   
 }
+
+a:hover{
+    background-color: var(--cor01);
+}
+
 
 
 main>img{
@@ -61,9 +85,14 @@ main>img{
     
 }
 
+main > h1{
+    padding: 10px;
+}
+
 span>img{
     border: 1px solid black;
     border-radius: 10px;
     margin: 1px;
+    
 }
 
