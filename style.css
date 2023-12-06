@@ -106,20 +106,31 @@ main > h1{
     width: 20%;
     text-indent: 10px;
     
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.item{
+    flex: 0 1 calc(30% - 20px);
+    margin: 10px;
+    text-align: center;
     
     
 }
 
-span>img{
-    border: 1px solid black;
-    border-radius: 10px;
-    margin: 1px;
-    
+.item>img{
+    max-width: 300px;
+    margin-right: 10px;
 }
 
-span.link{
-    border: 1px solid black;
-    background-color: #81708C;
-   
+.descricao{
+    width: 100%;
 }
+
+
+
+
 
