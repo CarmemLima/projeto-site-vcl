@@ -25,8 +25,8 @@
 
 body{
     margin: auto;
-    
     background-color: hwb(314 77% 15%);
+
     
        
 }
@@ -44,7 +44,10 @@ header{
     height: 60px;
     font-family: var(--fonte02);
     font-size: 2em;
+   
     
+
+
 
     
 }
@@ -99,7 +102,7 @@ main>img{
     
 }
 
-main > h1{
+main > h1, footer>h1{
     padding: 10px;
     font-family: var(--fonte02);
     background-image: linear-gradient(to right, var(--cor00), var(--cor03));
@@ -129,8 +132,6 @@ main > h1{
 .descricao{
     width: 100%;
 }
-
-
 
 
 
