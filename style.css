@@ -133,5 +133,19 @@ main > h1, footer>h1{
     width: 100%;
 }
 
+.preco{
+    font-size: 1.5em;
+    font-weight: bold;
+    background-color: #9E92A6;
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: auto;
+    color: var(--cor03);
+    text-decoration: none;
+    
+}
+
+
 
 
