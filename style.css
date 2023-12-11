@@ -25,10 +25,9 @@
 
 body{
     margin: auto;
+    padding-right: 50px;
     background-color: hwb(314 77% 15%);
-
     
-       
 }
 
 
@@ -44,18 +43,14 @@ header{
     height: 60px;
     font-family: var(--fonte02);
     font-size: 2em;
-   
-    
-
-
-
     
 }
+
 header>h1,h2,nav{
     text-align: center;
     font-size: 90%;
-    
-    
+ 
+
     
 }
 
@@ -116,17 +111,38 @@ main > h1, footer>h1{
     justify-content: space-around;
 }
 
-.item{
+.item, .itemuc{
     flex: 0 1 calc(30% - 20px);
     margin: 10px;
     text-align: center;
     
-    
+}
+
+.itemuc{
+    flex: 0 1 calc(5% - 15px);
 }
 
 .item>img{
     max-width: 300px;
     margin-right: 10px;
+}
+
+.itemuc{
+    max-width: 400px;
+    margin-right: 8px;
+    
+}
+
+#padtop{
+    margin: auto;
+    padding-left: 25px;
+    padding-right: -15px;
+}
+
+h3{
+    font-family: var(--fonte02);
+    font-size: 1.5em;
+    
 }
 
 .descricao{
