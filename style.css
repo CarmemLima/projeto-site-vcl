@@ -38,12 +38,12 @@ header{
     background-color: #81708C;
     color: #F2F2F2;
     padding-top: 20px;
-    padding-bottom: 50px;
+    padding-bottom: 10px;
     width: 100vw;
-    height: 60px;
+   
     font-family: var(--fonte02);
     font-size: 2em;
-    position: fixed;
+    
    
     
     
@@ -54,7 +54,7 @@ header{
 header>h1,h2,nav{
     text-align: center;
     font-size: 70%;
-    position: relative;
+    
 
 
 }
@@ -73,16 +73,10 @@ header>h2{
 nav{
     background-color: #81708C;
     padding-bottom: 30px;
-    padding-top: 40px;
+    padding-top: 10px;
     width: 100vw;
     font-family: var(--fonte02);
     font-weight: BOLD;
-    top: 100px;
-    position: fixed;
-    top: 120px;
-   
-    
-    
     
 }
 
@@ -93,9 +87,6 @@ nav a{
     padding: 5px;
     text-decoration: none;
     
-    
-     
-    
 }
 
 a:hover{
@@ -105,7 +96,7 @@ a:hover{
 
 
 main>img{
-    padding-top: 200px;
+    
     width: 100vw;
     
 }
@@ -127,7 +118,6 @@ main > h1, footer>h1{
 
 .item, .itemuc{
     flex-direction: row;
-    margin: 10px;
     text-align: center;
     
 }
@@ -156,27 +146,36 @@ main > h1, footer>h1{
 h3{
     font-family: var(--fonte02);
     font-size: 1em;
+    font-weight: normal;
+    
     
 }
 
 .descricao{
-    width: 100%;
+    text-align: center;
+    font-family: var(--fonte02);
+    
 }
 
 .preco{
     font-size: 1em;
-    font-weight: bold;
+    font-weight: normal;
     font-family: var(--fonte02);
     color: black;
-    width: 100px;
-
-    
+   
     margin: auto;
-    
     text-decoration: none;
     
 }
 
+footer{
+    font-family: var(--fonte02);
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+}
 
 
 
