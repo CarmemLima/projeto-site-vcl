@@ -25,6 +25,7 @@
 
 body{
     margin: auto;
+    min-width: 400px;
     padding-right: 50px;
     background-color: hwb(314 77% 15%);
     
@@ -38,43 +39,29 @@ header{
     background-color: #81708C;
     color: #F2F2F2;
     padding-top: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 1px;
     width: 100vw;
-   
     font-family: var(--fonte02);
     font-size: 2em;
-    
-   
-    
-    
-    
-   
 }
 
 header>h1,h2,nav{
     text-align: center;
     font-size: 70%;
-    
-
-
 }
 
 
 
 header>h2{
     font-family: var(--fonte03);
-    
-   
-    
 }
-
 
 
 nav{
     background-color: #81708C;
     padding-bottom: 30px;
     padding-top: 10px;
-    width: 100vw;
+    width: 100dvw;
     font-family: var(--fonte02);
     font-weight: BOLD;
     
@@ -84,7 +71,7 @@ nav a{
     color: var(--cor03);
     border: 2px solid var(--cor02);
     border-radius: 10px;
-    padding: 5px;
+    padding: 4px;
     text-decoration: none;
     
 }
@@ -96,12 +83,11 @@ a:hover{
 
 
 main>img{
-    
     width: 100vw;
     
 }
 
-main > h1, footer>h1{
+main > h1{
     padding: 10px;
     font-family: var(--fonte02);
     background-image: linear-gradient(to right, var(--cor00), var(--cor03));
