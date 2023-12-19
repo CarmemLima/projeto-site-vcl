@@ -14,7 +14,7 @@
 
 *{
     min-width: 300px; 
-    max-width: 1200vw;
+    max-width: 2500vw;
     
 }
 
@@ -83,8 +83,9 @@ nav a{
     
 }
 
-a:hover{
+#bg, a:hover{
     background-color: var(--cor01);
+    color: #D9C5D4;
 }
 
 
@@ -114,6 +115,7 @@ main > h1{
     flex-direction: row;
     text-align: center;
     
+    
 }
 
 
@@ -121,12 +123,15 @@ main > h1{
 .item>img{
     max-width: 300px;
     flex-direction: row;
+    margin-bottom: -15px;
     
     
 }
 
 .itemuc>img{
     max-width: 300px;
+    flex-direction: row;
+    margin-bottom: -15px;
     
     
 }
@@ -162,10 +167,12 @@ footer{
 
 footer a{
     text-decoration: none;
-    color: black;
+    color: black; 
     
     
 }
+
+
 
 
 
