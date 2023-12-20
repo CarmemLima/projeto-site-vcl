@@ -14,7 +14,7 @@
 
 *{
     min-width: 300px; 
-    max-width: 2500vw;
+    max-width: 1200vw;
     
 }
 
@@ -83,15 +83,25 @@ nav a{
     
 }
 
-#bg, a:hover{
+a:hover{
     background-color: var(--cor01);
     color: #D9C5D4;
+}
+
+.item>img:hover, .itemuc>img:hover, a:hover{
+    background-color:#9e92a673;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+h3:hover,p:hover{
+    text-decoration: underline;
 }
 
 
 
 main>img{
-width: 100vw;
+    width: 100vw;
     
 }
 
@@ -106,7 +116,9 @@ main > h1{
 .container{
     display: flex;
     flex-wrap: wrap;
+    flex-shrink: 1;
     justify-content:space-around;
+   
     
 
 }
@@ -114,28 +126,14 @@ main > h1{
 .item, .itemuc{
     flex-direction: row;
     text-align: center;
-    
-    
 }
 
 
-
-.item>img{
+.item>img, .itemuc>img{
     max-width: 300px;
     flex-direction: row;
     margin-bottom: -15px;
-    
-    
 }
-
-.itemuc>img{
-    max-width: 300px;
-    flex-direction: row;
-    margin-bottom: -15px;
-    
-    
-}
-
 
 h3{
     font-family: var(--fonte02);
@@ -154,7 +152,6 @@ h3{
     font-weight: normal;
     font-family: var(--fonte02);
     color: black;
-   
     margin: auto;
     text-decoration: none;
     
@@ -163,6 +160,8 @@ h3{
 footer{
     font-family: var(--fonte02);
     margin-top: 200px;
+    background-color: #84798C;
+    padding: 20px;
 }
 
 footer a{
