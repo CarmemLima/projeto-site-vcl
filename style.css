@@ -67,10 +67,11 @@ nav{
     background-color: #81708C;
     padding-bottom: 30px;
     padding-top: 10px;
-    font-size: 60%;
+    font-size: 1.2vmax;
     text-align: center;
     font-family: var(--fonte02);
     font-weight: BOLD;
+    
     
 }
 
@@ -127,19 +128,18 @@ main > h1{
 .container{
     display: flex;
     flex-wrap: wrap;
-    flex-shrink: 1;
+    
     justify-content:space-around;
+    
 }
 
 .item, .itemuc{
-    flex-direction: row;
     text-align: center;
 }
 
 
 .item>img, .itemuc>img{
     max-width: 300px;
-    flex-direction: row;
     margin-bottom: -15px;
 }
 
