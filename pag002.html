@@ -5,22 +5,84 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blusa Cropped Ixquece - Branco</title>
     <style>
+        
+        @font-face{
+    font-family: 'Halant-Medium'; 
+    src: url('fonte/Halant-Medium.ttf') format('truetype');
+}
+@font-face{    
+    font-family: 'Montserrat-VariableFont_wght'; src: url('fonte/Montserrat-VariableFont_wght.ttf') format('truetype');
+}
+@font-face{
+    font-family: 'ShadowsIntoLight-Regular';
+    src: url('fonte/ShadowsIntoLight-Regular.ttf') format('truetype');
+}
+:root{
+    --cor00: #81708C;
+    --cor01: #84798C;
+    --cor02: #9E92A6;
+    --cor03: #D9C5D4;
+    --cor04: #F2F2F2;
+
+    --fonte01: 'Halant-Medium';
+    --fonte02: 'Montserrat-VariableFont_wght';
+    --fonte03: 'ShadowsIntoLight-Regular';
+}
+*{
+    min-width: 300px; 
+    max-width: 1200vw;
+    
+}
         body{
             background-color: hwb(314 77% 15%);
+            
+                        
+            
         }
         .containerpg2{
+           
             display: flex;
-            flex: row wrap;
-            justify-content: first baseline;
+            flex: wrap;
+            justify-content: baseline;
+            align-items: center;
+            
+            
+        }
+        h1, h2{
+            font-family: var(--fonte01);
         }
 
-       
+        h2{
+            color: var(--cor01);
+        }
+
+        p{
+            font-family: var(--fonte02);
+        }
+        
+        img{
+            min-width: 200px;
+            max-width: 300px;
+        }
+
+    
     </style>
 </head>
 <body>
     <div class="containerpg2">
-        <img src="imagens/Vitrine CL Fitness/cropped-ixquece-bco-500.png" alt="item1">
-        <h1>Blusa Cropped Ixquece</h1>
+        <div id="foto">
+            <img src="imagens/Vitrine CL Fitness/cropped-ixquece-bco-500.png" alt="item1">
+        </div>
+        <div id="detalhes">
+            <h1>Blusa Cropped Ixquece</h1>
+            <p>Blusa modelo cropped, em tecido poliéster, com frase em silk.<br>
+            Tamanho: M (38 - 42) <br></p>
+            <p>Pode ser usada tanto em ambientes fitness, como também em mood casual.</p>
+            <h2>R$52,90</h2>
+            <a href="">
+                <p>Adicionar ao carrinho</p>
+            </a>
+        </div>
         
         </div>
     </div>
