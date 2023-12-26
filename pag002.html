@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blusa Cropped Ixquece - Branco</title>
+    <link rel="shortcut icon" href="imagens/favicon-sacola-32x32.png" type="image/x-icon">
     <style>
         
         @font-face{
@@ -28,13 +29,10 @@
     --fonte02: 'Montserrat-VariableFont_wght';
     --fonte03: 'ShadowsIntoLight-Regular';
 }
-*{
-    min-width: 300px; 
-    max-width: 1200vw;
-    
-}
+
         body{
-            background-color: hwb(314 77% 15%);
+            background-color: var(--cor03);
+            
             
                         
             
@@ -42,11 +40,7 @@
         .containerpg2{
            
             display: flex;
-            flex: wrap;
-            justify-content: baseline;
-            align-items: center;
-            
-            
+            flex-direction: row;
         }
         h1, h2{
             font-family: var(--fonte01);
@@ -61,10 +55,25 @@
         }
         
         img{
-            min-width: 200px;
-            max-width: 300px;
+            min-width: 100px;
+            max-width: 200px;
         }
 
+        #foto{
+           
+            padding: 10px;
+           
+            
+        }
+
+        #detalhes{
+            padding: 10px;
+            font-size: small;
+           
+        }
+        #shop{
+            flex-direction: row;
+        }
     
     </style>
 </head>
@@ -79,9 +88,14 @@
             Tamanho: M (38 - 42) <br></p>
             <p>Pode ser usada tanto em ambientes fitness, como também em mood casual.</p>
             <h2>R$52,90</h2>
-            <a href="">
-                <p>Adicionar ao carrinho</p>
-            </a>
+            <div id="shop">
+              
+                <a href="">
+                    <p>Adicionar à sacola</p>
+                </a>
+            </div>
+
+      
         </div>
         
         </div>

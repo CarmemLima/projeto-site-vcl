@@ -130,6 +130,7 @@ main > h1{
     flex-wrap: wrap;
     justify-content:space-around;
     
+    
 }
 
 .item, .itemuc{
@@ -152,7 +153,10 @@ h3{
     font-family: var(--fonte02);
 }
 
-
+.descricao>a{
+    color: black;
+    text-decoration: none;
+}
 
 .preco{
     font-size: 1em;
