@@ -96,9 +96,6 @@ a:hover{
     background-color:#9e92a673;
     color: black;
     border-radius: 10px;
-    
-
-    
 }
 
 
@@ -175,14 +172,13 @@ footer{
     font-family: var(--fonte02);
     margin-top: 200px;
     background-color: #84798C;
-    padding: 20px;
+    padding: 10px;
+    margin-left: -25px;
 }
 
 footer a{
     text-decoration: none;
-    color: black; 
-    
-    
+    color: black;
 }
 
 
