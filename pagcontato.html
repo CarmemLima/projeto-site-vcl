@@ -27,16 +27,16 @@
             --fonte02: 'Montserrat-VariableFont_wght';
             --fonte03: 'ShadowsIntoLight-Regular';
         }
-                body{
-                   background-color: #9E92A6;
-                   min-width: 300px;
-                   max-width: 1000px;
                 
-                }
-        
+        body{
+            margin: 0;
+            background-color: hwb(314 77% 15%);
+    
+        }
+            
                 #containercontato{
                     display: flex;
-                    flex-direction: row;
+                    flex-direction: column;
                     flex-wrap: wrap;
                     margin: 20px;
                 }
@@ -45,6 +45,7 @@
                 h1{
                     font-family: var(--fonte01);
                     font-size: 2em;
+            
                 }
         
                 p{
@@ -52,15 +53,32 @@
                     text-align: justify;
                     font-size: normal;
                 }
+                footer{
+                    
+                    margin-top: 30%;
+                    padding: 10px;
+                    font-family: var(--fonte02);
+                    color: var(--cor04);
+                    background-color: #81708C;
+                    text-align: center;
+        
+        }
             </style>
         </head>
-        <body>
-            <div id="containercontato">
-                <h1>Contate-nos</h1>
-                <p>E-mail: cl.business.for@gmail.com
-                </p>
-                <a href="index.html">Voltar</a>
-            </div>
+        <main>
+            <body>
+                <div id="containercontato">
+                    <h1>Contate-nos</h1>
+                    <p>E-mail: cl.business.for@gmail.com
+                    <br>Instagram: @vitrineclfitness
+
+                    </p>
+                    <a href="index.html">Voltar</a>
+                </div>
             
-        </body>
+            </body>
+        </main>
+        <footer>
+            Vitrine CL Fitness - A sua melhor vitrine em moda fitness
+        </footer>
         </html>
